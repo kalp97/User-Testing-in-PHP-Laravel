@@ -15,7 +15,7 @@ class PagesController extends Controller
     {
         return view('pages.about');
     }
-    /*function contact(){
+    function contact(){
         return view( 'pages.contact');
     }
     function store(Request $request){
@@ -25,5 +25,5 @@ class PagesController extends Controller
     }
     function thanks($name, Request $request){
         return view('pages.thankyou')->with(compact('name'));
-    }*/
+    }
 }
